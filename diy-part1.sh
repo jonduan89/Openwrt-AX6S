@@ -18,7 +18,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
 echo 'src-git passwall https://github.com/jonduan89/luci-app-passwall.git' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
-echo 'src-git argon-AX6S https://github.com/jonduan89/luci-theme-argon-AX6S.git' >>feeds.conf.default
+echo 'src-git argonAX6S https://github.com/jonduan89/luci-theme-argon-AX6S.git' >>feeds.conf.default
 echo 'src-git edge https://github.com/kiddin9/luci-theme-edge.git' >>feeds.conf.default
 echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon.git' >>feeds.conf.default
 
