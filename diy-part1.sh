@@ -16,7 +16,7 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
 
 # Add themes
 cd package/lean
@@ -25,4 +25,4 @@ cd package/lean
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 
 # Add passwall
-git clone https://github.com/jonduan89/luci-app-passwall.git
+#git clone https://github.com/jonduan89/luci-app-passwall.git
