@@ -19,10 +19,10 @@ echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-inf
 #echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
 
 # Add themes
-cd package/lean
+#cd package/lean
 #git clone https://github.com/jonduan89/luci-theme-argon-AX6S.git
 #git clone https://github.com/kiddin9/luci-theme-edge.git
-git clone https://github.com/jerrykuku/luci-theme-argon.git
+#git clone https://github.com/jerrykuku/luci-theme-argon.git
 
 # Add passwall
 #git clone https://github.com/jonduan89/luci-app-passwall.git
