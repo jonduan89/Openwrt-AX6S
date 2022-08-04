@@ -20,13 +20,12 @@ echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.gi
 echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci' >>feeds.conf.default
 #echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
 
-
+sed -i 's#coolsnowwolf/luci#jonduan89/luci#g' feeds.conf.default
 
 # Add themes
-#cd package/lean
-#git clone https://github.com/jonduan89/luci-theme-argon-AX6S.git
-#git clone https://github.com/kiddin9/luci-theme-edge.git
-#git clone https://github.com/jerrykuku/luci-theme-argon.git
+cd package/lean
+git clone https://github.com/kiddin9/luci-theme-edge.git
+git clone https://github.com/jerrykuku/luci-theme-argon.git
 
 # Add passwall
 #git clone https://github.com/jonduan89/luci-app-passwall.git
