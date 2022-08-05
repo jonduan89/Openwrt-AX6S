@@ -24,8 +24,8 @@ sed -i 's#coolsnowwolf/luci#jonduan89/luci#g' feeds.conf.default
 
 # Add themes
 cd package/lean
-git clone https://github.com/kiddin9/luci-theme-edge.git
-git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 
 # Add passwall
 #git clone https://github.com/jonduan89/luci-app-passwall.git
