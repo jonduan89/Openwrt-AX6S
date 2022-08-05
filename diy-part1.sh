@@ -18,6 +18,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages' >>feeds.conf.default
 echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci' >>feeds.conf.default
+echo 'src-git smartdns https://github.com/pymumu/smartdns.git' >>feeds.conf.default
 #echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
 
 sed -i 's#coolsnowwolf/luci#jonduan89/luci#g' feeds.conf.default
