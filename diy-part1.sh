@@ -22,7 +22,7 @@ echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;lu
 #sed -i 's#coolsnowwolf/luci#jonduan89/luci#g' feeds.conf.default
 
 # Adguard Home
-echo 'src-git adguardhome_app https://github.com/panther706/luci-app-adguardhome.git' >>feeds.conf.default
+#echo 'src-git adguardhome_app https://github.com/panther706/luci-app-adguardhome.git' >>feeds.conf.default
 
 #sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/mediatek/Makefile
 
@@ -35,6 +35,6 @@ git clone https://github.com/thinktip/luci-theme-neobird.git
 git clone https://github.com/rosywrt/luci-theme-rosy.git
 
 # Smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git
 
 # Change kernel to 5.15
